@@ -1,0 +1,8 @@
+dev_cidr_block = "10.0.0.0/16"
+#product = "tesla"
+#environment = "dev"
+dev_publicsubnet_cidr = "10.0.1.0/28,10.0.2.0/28,10.0.5.0/28"
+dev_public_az = "eu-west-2a,eu-west-2b,eu-west-2c"
+dev_privatesubnet_cidr = "10.0.3.0/28,10.0.4.0/28,10.0.6.0/28"
+dev_private_az = "eu-west-2c,eu-west-2a,eu-west-2b"
+terraform_repo = "https://github.com/bhargavimandala/terraform-aws-vpc-module.git"
