@@ -29,3 +29,52 @@ variable "costcode" {
 variable "terraform_repo" {
    type = string
 }
+
+######### ec2 variableas ######
+variable "ami" {
+   type = string
+}
+variable "instance_type" {
+   type = string
+}
+/*variable "product" {
+   type = string
+}*/
+/*variable "environment" {
+   type = string
+}*/
+variable "key_name" {
+   type = string
+}
+variable "dev_vpc_id" {
+   type = string
+}
+variable "dev_volume_size" {
+   type = list(any)
+   default = [2]
+}
+variable "dev_device_names" {
+   type = list(any)
+   default = ["/dev/sdd"]
+}
+variable "ec2_count" {
+   type = number
+   default = 1
+}
+variable "ebs_volume_count" {
+   type = number
+}
+variable "az" {
+   type = list(any)
+}
+variable "subnet_ids" {
+   type = list(any)
+}
+variable "terraformrepo" {
+   type = string
+}
+/*variable "costcode" {
+    type = number
+    default = 123
+}*/
+
