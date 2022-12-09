@@ -22,3 +22,8 @@ az = ["eu-west-2c"]
 subnet_ids = ["subnet-0ce6f355fce16536e"]
 terraformrepo = "https://github.com/bhargavimandala/terraform-aws-ec2-module.git"
 costcode = 1223
+
+
+
+
+
